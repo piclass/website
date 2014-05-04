@@ -1,10 +1,10 @@
-/* CSS style for SliSH */
+/* CSS style for PiClass */
 
 html { min-height: 102%; }
 body { font: 100% sans-serif, vernada, arial; margin: 0; }
-h1 { margin: 0; color: #333; font-size: 240%; }
-h2 { color: #333; font-size: 200%; }
-h3 { color: #555; font-size: 160%; }
+h1 { margin: 0; color: #666; font-size: 240%; }
+h2 { color: #666; font-size: 200%; }
+h3 { color: #666; font-size: 160%; }
 a { text-decoration: underline; color: #215090; }
 a:hover { text-decoration: none; }
 img { border: 0pt none; vertical-align: middle; }
