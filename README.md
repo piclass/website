@@ -1,4 +1,5 @@
-website
-=======
+PiClass Website
+===============
 
-The piclass.org website
+This is the piclass.org website static files.
+
