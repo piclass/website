@@ -1,0 +1,97 @@
+/* CSS style for SliSH */
+
+html { min-height: 102%; }
+body { font: 100% sans-serif, vernada, arial; margin: 0; }
+h1 { margin: 0; color: #333; font-size: 240%; }
+h2 { color: #333; font-size: 200%; }
+h3 { color: #555; font-size: 160%; }
+a { text-decoration: underline; color: #215090; }
+a:hover { text-decoration: none; }
+img { border: 0pt none; vertical-align: middle; }
+pre {
+	overflow: auto;
+	font-size: 98%;
+}
+
+/* Header */
+
+header {
+	background: #ddd;
+	height: 60px;
+	border-bottom: 2px solid #215090;
+}
+
+header a { text-decoration: none; height: 100%; }
+#logo { margin: 0 10px; }
+
+/* Navigation */
+
+nav {
+	font-size: 20px;
+	margin: 16px;
+	padding: 0;
+	float: right;
+	color: #222;
+	top: 20px;
+}
+
+nav ul {
+    margin: 0; padding: 0;
+    list-style: none;
+}
+nav li { display: inline; }
+
+nav a { 
+	text-decoration: none;
+	padding: 10px;
+	color: #ddd; 
+	font-weight: bold;
+	vertical-align: middle;
+	transition-property: background-color;
+	transition-duration: 0.6s;
+}
+
+.nav1 { background-color: #215090; }
+.nav1:hover { background-color: #9A002C; }
+.nav2 { background-color: #ccc; }
+.nav2:hover { background-color: #bbb; }
+.navpi { background-color: #ccc; }
+.navpi:hover { background-color: #bc1142; }
+
+/* Content */
+
+#content {
+	margin: 40px auto;
+	padding: 0 20px;
+	max-width: 720px;
+}
+#content p { text-align: justify; }
+
+.box, pre {
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+pre img { margin: 4px 4px 4px 0px; }
+#content p img { 
+	display: block;
+	margin: 0 auto; 
+}
+
+pre, img, nav a {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid #ddd;
+	font-size: 90%;
+}
+
+footer a { padding: 0 2px; }
