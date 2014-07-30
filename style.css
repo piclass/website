@@ -4,14 +4,12 @@ html { min-height: 102%; }
 body { font: 100% sans-serif, vernada, arial; margin: 0; }
 h1 { margin: 0; color: #666; font-size: 240%; }
 h2 { color: #666; font-size: 200%; }
-h3 { color: #666; font-size: 160%; }
+h3 { color: #8F2118; font-size: 160%; }
 a { text-decoration: underline; color: #215090; }
 a:hover { text-decoration: none; }
 img { border: 0pt none; vertical-align: middle; }
-pre {
-	overflow: auto;
-	font-size: 98%;
-}
+pre { overflow: auto; font-size: 98%; }
+ul { list-style-type: square; }
 
 /* Header */
 
