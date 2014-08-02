@@ -51,10 +51,16 @@ nav a {
 
 .nav1 { background-color: #215090; }
 .nav1:hover { background-color: #9A002C; }
-.nav2 { background-color: #ccc; }
-.nav2:hover { background-color: #bbb; }
+.nav2 { background-color: #215090; }
+.nav2:hover { background-color: #BA3600; }
 .navpi { background-color: #ccc; }
 .navpi:hover { background-color: #bc1142; }
+
+/* Languages */
+
+#lang { float: right; padding: 5px; font-size: 90%; color: #666; }
+#lang a { text-decoration: none; }
+#lang a:hover { text-decoration: underline; }
 
 /* Content */
 
